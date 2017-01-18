@@ -1,0 +1,81 @@
+body{
+  font-family: 'PT Sans', sans-serif;
+}
+.main {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  background-image: url('./img/main-bg.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+.nav {
+  display: flex;
+  position: fixed;
+  width: 100vw;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 30px;
+  font-size: 30px;
+  color: white;
+  font-weight: bolder;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  font-weight: bolder;
+}
+.name {
+  font-size: 50px;
+}
+.portfolio{
+  font-size: 30px;
+}
+.burger{
+  display: none;
+}
+.icons {
+  display: none;
+}
+@media(max-width:500px){
+    .nav{
+      width: 100%;
+      display: flex;
+      position: fixed;
+      flex-direction: row;
+      justify-content: space-between;;
+      padding: 30px;
+      font-size: 30px;
+      color: white;
+      font-weight: bolder;
+    }
+    .navContent{
+      display: none;
+    }
+    .burger{
+      display: inline;
+      /*background-image: url("./img/burger.png");*/
+      /*height: 30px;*/
+    }
+    .burger-pic{
+      height: 50px;
+      margin-top: -10px;
+    }
+    .icons{
+      /*margin-top: 10px;*/
+      display:inline-block;
+      font-size: 15px;
+    }
+    .fa-facebook{
+      margin-left: 25px;
+    }
+  }
