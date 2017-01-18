@@ -35,16 +35,28 @@ body{
   font-weight: bolder;
 }
 .name {
+  margin-top: 200px;
   font-size: 50px;
 }
 .portfolio{
   font-size: 30px;
+  margin-bottom: 200px;
 }
 .burger{
   display: none;
 }
 .icons {
   display: none;
+}
+.down{
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: white;
+  font-size: 20px;
+  border: none;
+  padding-top: 10px;
+  /*margin-top: 200px;*/
 }
 @media(max-width:500px){
     .nav{
